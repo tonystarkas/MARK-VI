@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="419.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FinansuController">
+    <children>
+        <Button fx:id="pridFinansus" layoutX="67.0" layoutY="109.0" mnemonicParsing="false" onAction="#prideti" prefHeight="42.0" prefWidth="160.0" text="Pridėti finansus">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="istrFinansus" layoutX="67.0" layoutY="175.0" mnemonicParsing="false" onAction="#istrinti" prefHeight="42.0" prefWidth="160.0" text="Ištrinti finansus">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <Button fx:id="redFianansus" layoutX="67.0" layoutY="238.0" mnemonicParsing="false" onAction="#redaguoti" prefHeight="42.0" prefWidth="160.0" text="Redaguoti finansus">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+        <ListView fx:id="finansu_sarasas" layoutX="251.0" layoutY="80.0" prefHeight="232.0" prefWidth="357.0" />
+      <Button fx:id="grizti" layoutX="121.0" layoutY="300.0" mnemonicParsing="false" onAction="#tokategorijos" text="Grizti" />
+      <Text fx:id="balance" layoutX="251.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="325.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
